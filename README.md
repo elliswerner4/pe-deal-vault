@@ -1,10 +1,10 @@
 # PE Deal Vault
 
-**An Obsidian knowledge system for private equity deal work, built so an AI agent can run it.**
+**An Obsidian knowledge system for private equity deal work, written so Claude Code can run it.**
 
-The vault holds a full underwriting playbook as plain markdown: deal-stage workflows, memo structures, sector playbooks, red-flag triggers and analysis templates. Point Claude at the folder and the [`CLAUDE.md`](CLAUDE.md) file turns it into an agent. Hand it a company name, a CIM or a quarter's board pack, and it picks the right deal stage, reads the matching playbooks, drafts the memo in house style, and files it back into the vault with every company, person and comp linked.
+The vault holds a full underwriting playbook as plain markdown: deal-stage workflows, memo structures, sector playbooks, red-flag triggers and analysis templates. A [`CLAUDE.md`](CLAUDE.md) instruction file lets Claude Code run the workflow: hand it a company name, a CIM or a quarter's board pack, and the instructions tell it to pick the right deal stage, read the matching playbooks, draft the memo in house style, and file it back into the vault with every company, person and comp linked.
 
-I built this during my 2026 private equity internship. It is the knowledge base behind [Pulse](https://github.com/elliswerner4/pulse-reunderwriting-agent), my AI re-underwriting agent. This public version is the generic template: every firm-specific file, deal and person has been removed. The one deal included, Ridgeline Infusion Partners, is a fictional example.
+I built this during my 2026 private equity internship, writing the frameworks with AI assistance. It uses the same frameworks as [Pulse](https://github.com/elliswerner4/pulse-reunderwriting-agent), my AI re-underwriting agent. This public version is the generic template: every firm-specific file, deal and person has been removed. The one deal included, Ridgeline Infusion Partners, is a fictional example.
 
 ## How it works
 
